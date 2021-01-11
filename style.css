@@ -1,0 +1,212 @@
+        
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+                 
+body {
+    background-image: url("imgs/fondoFinal.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;   
+}
+
+#header {
+    background-image: url("imgs/fondoHeder.png");
+    width: 100%;
+    height: 35vh;
+    margin: -2% 0% -2% 0%;
+    border-radius: 5px;
+}
+ 
+h1 {
+    color: #131313;
+    font-family: 'Goldman', cursive;
+    font-size: 25px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-left: 2%;
+}
+ 
+#logo {
+    width: 10%;
+    position: absolute;
+    top: 3%;
+    left: 10%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+ 
+#nav-bar {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    margin-top: 2%;
+    margin-right: 2%;
+    z-index: 2;
+}
+ 
+.nav-link {
+    display: block;
+    text-decoration: none;
+    font-family:'Big Shoulders Stencil Display', cursive;
+    font-size: 25px;
+    background-color: rgb(153, 255, 153, 0.7);
+    color: rgb(32, 32, 32, 1.0);
+    border-radius: 3px;
+    padding: 2px 3px 2px 3px;   
+    margin-top: 2%;
+}
+
+#maxima {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(32, 32, 32, 1.0);
+    background-color: rgb(153, 255, 153, 0.7);
+    border-radius: 10px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+#nosotrosText {
+    font-size: 20px;
+    font-family: 'Goldman', cursive;
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70vh;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+#nuestros {
+    height: 100vh;
+    margin-bottom: 70vh;
+}
+
+#nuestrosSintes {
+    font-family:'Big Shoulders Stencil Display', cursive;
+    font-size: 35px;
+    background-color: rgb(153, 255, 153, 0.7);
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.sintesPic {
+    display: block;
+    width: 20%;
+    border-radius: 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.nombre {
+    font-family: 'Goldman', cursive;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    width: 30%;
+    color: rgb(32, 32, 32, 1.0);
+    background-color: rgb(153, 255, 153, 0.7);
+    border-radius: 10px;
+    padding: 2px 2px 2px 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+#formasPago {
+    height: 100vh;
+    margin-bottom: 70vh;
+}
+
+#pago-titulo {
+    font-family:'Big Shoulders Stencil Display', cursive;
+    font-size: 35px;
+    background-color: rgb(153, 255, 153, 0.7);
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.pagoPic {
+    display: inline;
+    width: 10%;
+    border-radius: 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.tipoPago {
+    font-family: 'Goldman', cursive;
+    font-size: 20px;
+    display: inline;
+    color: rgb(32, 32, 32, 1.0);
+    background-color: rgb(153, 255, 153, 0.7);
+    border-radius: 10px;
+    padding: 2px 2px 2px 3px;
+
+}
+
+#tipoPago-todos {
+    margin-top: 3%;
+}
+
+#nombrePago1 {
+    margin-left: 5%;
+}
+
+#nombrePago2 {
+    margin-left: 19%;     
+}
+
+#nombrePago3 {
+    margin-left: 24%; 
+}
+
+#video {
+    position: absolute;
+    top: 450%;
+    margin-left: 32%;
+}
+
+#suscripcion {    
+    position: absolute;
+    top: 515%;
+    padding-bottom: 10%;
+}
+
+#suscripcion-titulo {
+    text-align: center;
+    font-family: 'Goldman', cursive;
+    background-color: rgb(153, 255, 153, 0.7);
+    padding-inline-start: 5%;
+    border-radius: 10px;
+}
+
+.sumbits {
+    font-family: 'Goldman', cursive;
+    border-radius: 5px;
+}
